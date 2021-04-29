@@ -1,0 +1,18 @@
+@import "../css/reset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.video {
+  position: relative;
+  z-index: 1;
+}
+#videoBg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
