@@ -1,7 +1,10 @@
 "use strict";
 
-let number = 5;
-const leftBorderWidth = 1;
+let something = 12;
 
-number = 10;
-console.log(number);                    
+// while (something < 30) {
+    something++;
+// }
+
+console.log(something);
+alert('hello');
