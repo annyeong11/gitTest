@@ -8,3 +8,4 @@ let something = 12;
 
 console.log(something);
 alert('hello');
+alert('cuddle');
