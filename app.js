@@ -1,11 +1,22 @@
 "use strict";
 
-let something = 12;
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
 
-// while (something < 30) {
-    something++;
-// }
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 
-console.log(something);
-alert('hello');
-alert('cuddle');
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[b] = d;
+
+console.log(personalMovieDB);
+ 
